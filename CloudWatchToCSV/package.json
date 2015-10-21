@@ -1,0 +1,13 @@
+{
+  "name": "CloudWatchToCSV",
+  "version": "0.0.0",
+  "description": "CloudWatchToCSV",
+  "main": "app.js",
+  "author": {
+    "name": "stepa",
+    "email": ""
+  },
+  "dependencies": {
+    "aws-sdk": "^2.2.10"
+  }
+}
