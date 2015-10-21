@@ -51,7 +51,7 @@ exports.handler = function (event, context) {
                                 datapoint.Maximum,
                                 datapoint.Unit,
                                 "\r\n"
-                            ];
+                            ].join(';');
                         }
 
                         resolve(datapoints);
